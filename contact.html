@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBD6201 - ICE 1</title>
+    <title>Contact</title>
     <!-- CSS Section -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome//fontawesome-free/css/all.min.css">
@@ -50,6 +50,31 @@
 
     <main class="container">
         <h1>Contact Us</h1>
+
+        <form class="row">
+          <div class="col-6">
+            <div>
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" aria-describedby="fullName"
+              name="fullName" placeholder="Enter your Full Name" required>
+            </div>
+
+            <div>
+              <label for="contactNumber" class="form-label">Contact Number</label>
+              <input type="tel" class="form-control" id="contactNumber" aria-describedby="contactNumber"
+              name="contactNumber" placeholder="Enter your Contact Number" required>
+            </div>
+
+            <div>
+              <label for="emailAddress" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp"
+              name="emailAddress" placeholder="Enter your email" required>
+            </div>
+            <button id="sendButton" type="submit" class="btn btn-primary"><i class="fas fa-envelope fa-lg"></i> Send</button>
+            <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fas fa-undo fa-lg"></i> Cancel</button>
+          </div>
+          
+        </form>
     </main>
 
     <footer>
