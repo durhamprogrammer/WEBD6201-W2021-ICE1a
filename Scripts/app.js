@@ -35,6 +35,7 @@
         <p id="paragraphThree"> This is the Third Paragraph </p>`;
 
         mainContent.append(newDivTag);
+        
     }
 
 
